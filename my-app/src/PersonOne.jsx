@@ -7,7 +7,7 @@ export default class PersonOne extends Component {
       <div>
           <Form>
             <Icon name='user' circle size='big' />
-          <Header>Person One</Header>
+          <Header textAlign='center'>Person One</Header>
           <br></br>
           <FormField>
           <label htmlFor='Name'>Search</label>

@@ -16,6 +16,8 @@ export default class App extends Component {
           <PersonOne />
           </Grid.Column>
           <Grid.Column width={8}>
+            <p>This is a graph that shows the relationships</p>
+            <p>Click on a company to display the relationships to your person searched</p>
           <Image centered size='large' src='/images/co1.png' />
           </Grid.Column>
           <Grid.Column width={4}>
