@@ -1,0 +1,11 @@
+{
+  "name": "codirect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kiri-tavaga/coDirect.git",
+  "author": "kiri-tavaga <kiri.tavaga@icloud.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.3.0"
+  }
+}
