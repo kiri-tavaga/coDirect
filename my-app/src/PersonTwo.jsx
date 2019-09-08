@@ -6,11 +6,11 @@ export default class PersonTwo extends Component {
     return (
       <div>
           <Form>
-            <Icon name='building outline' circle size='big' />
+            <center><Icon name='building outline' circle size='big' /> </center>
           <Header textAlign='center'>Companies and Relationships</Header>
           <br></br>
           <FormField>
-          <label htmlFor='Name'>Companies</label>
+          <center><label htmlFor='Name'>Companies</label></center>
           <p>This shows the companies your person has interests in as a director or shareholder</p>
           <br></br>
           <Input
@@ -21,7 +21,7 @@ export default class PersonTwo extends Component {
           <br></br>
           </FormField>
           <FormField>
-          <label htmlFor='Name'>Relationships</label>
+          <center><label htmlFor='Name'>Relationships</label></center>
           <p>This shows other people with interests in the same companies as a director or shareholder</p>
           <br></br>
           <Input

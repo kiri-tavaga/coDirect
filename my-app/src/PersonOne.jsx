@@ -6,7 +6,7 @@ export default class PersonOne extends Component {
     return (
       <div>
           <Form>
-            <Icon name='user' circle size='big' />
+            <center><Icon centered name='user' circle size='big' /></center>
           <Header textAlign='center'>Person One</Header>
           <br></br>
           <FormField>
@@ -16,12 +16,6 @@ export default class PersonOne extends Component {
             placeholder='Name'
             type='text' 
             name='Name'
-          />
-          <br></br>
-          <Input
-            placeholder='Address'
-            type='text' 
-            name='Address'
           />
           <Form.Button>Submit</Form.Button>
           </FormField>
