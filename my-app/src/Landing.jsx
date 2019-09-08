@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
-import {Divider,FormField, Button} from 'semantic-ui-react'
+import {Divider,FormField} from 'semantic-ui-react'
 import {Image, Form, Grid} from 'semantic-ui-react'
 
 export default class Landing extends Component {
