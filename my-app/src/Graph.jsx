@@ -8,7 +8,7 @@ export default class Graph extends Component {
         <p>This is a graph that shows the relationships</p>
         <p>Click on a company to display the relationships to your person searched</p>
           <Embed 
-          id='kgaT4plyYwk'
+          id='https://youtube.com/watch?v=kgaT4plyYwk'
           source='youtube'
           icon='right circle arrow'
           placeholder='/images/neo.png'
