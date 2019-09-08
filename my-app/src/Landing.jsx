@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-// import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import {Divider,FormField, Button} from 'semantic-ui-react'
 import {Image, Form, Grid} from 'semantic-ui-react'
 
@@ -18,13 +18,13 @@ export default class Landing extends Component {
             <input placeholder="Name" type="text"/>
             <i aria-hidden="true" class="user icon"></i>
           </div>
-          <Button
+          <Link to='/home'
+              type='button'
+              className='ui huge button'
               color='red' 
-              fluid 
-              // as={Link} to='/Home'
-              className='ui huge button'>
+              fluid>
               Search<i className="right arrow icon"></i>
-          </Button>
+          </Link>
         </FormField>
     </Grid.Column>
     </Grid>
