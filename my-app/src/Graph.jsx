@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {Image} from 'semantic-ui-react'
+import {Embed} from 'semantic-ui-react'
 
 export default class Graph extends Component {
   render () {
@@ -7,7 +7,13 @@ export default class Graph extends Component {
       <div>
         <p>This is a graph that shows the relationships</p>
         <p>Click on a company to display the relationships to your person searched</p>
-          <Image centered size='large' src='/images/neo.png' />
+          <Embed 
+          id='uZG_zYsPJAU'
+          source='youtube'
+          icon='right circle arrow'
+          placeholder='/images/neo.png'
+          >
+          </Embed>
       </div>
     )
   }
